@@ -1,0 +1,16 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 379582b9fde64fd693e9aaad48b8321b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab01_test_behav xil_defaultlib.lab01_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'in' might have multiple concurrent drivers [C:/Users/funkq/ECE212_NQ/Lab01/lab01/lab01.srcs/sim_1/new/lab01_test.sv:31]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.celsius_to_fahren_x10
+Compiling module xil_defaultlib.round
+Compiling module xil_defaultlib.lab01_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab01_test_behav

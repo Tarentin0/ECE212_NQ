@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../adv_seven_seg_n.sv" \
+"../../../../../dbl_dabble_ext.sv" \
+"../../../../../disp_mux_seven_seg.sv" \
+"../../../../../temperature_display.sv" \
+"../../../../../lab01_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

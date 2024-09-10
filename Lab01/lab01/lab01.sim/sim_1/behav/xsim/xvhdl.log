@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/funkq/ECE212_NQ/Lab01/TWICtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TWICtl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/funkq/ECE212_NQ/Lab01/TempSensorCtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TempSensorCtl'

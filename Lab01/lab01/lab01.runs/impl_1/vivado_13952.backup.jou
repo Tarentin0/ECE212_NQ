@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep 10 15:07:17 2024
+# Process ID: 13952
+# Current directory: C:/Users/funkq/ECE212_NQ/Lab01/lab01/lab01.runs/impl_1
+# Command line: vivado.exe -log lab01_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab01_top.tcl -notrace
+# Log file: C:/Users/funkq/ECE212_NQ/Lab01/lab01/lab01.runs/impl_1/lab01_top.vdi
+# Journal file: C:/Users/funkq/ECE212_NQ/Lab01/lab01/lab01.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lab01_top.tcl -notrace
