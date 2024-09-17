@@ -1,0 +1,19 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8bb0d2576dc745b1a54976c4bd7f3110 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot Lab02_tb_behav xil_defaultlib.Lab02_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'cout' might have multiple concurrent drivers [C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sim_1/new/Lab02_tb.sv:27]
+WARNING: [VRFC 10-3823] variable 'cout' might have multiple concurrent drivers [C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sim_1/new/Lab02_tb.sv:28]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.ripple_carry_8b
+Compiling module xil_defaultlib.carry_lookahead_8b
+Compiling module xil_defaultlib.prefix_8b
+Compiling module xil_defaultlib.Lab02_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Lab02_tb_behav

@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/funkq/ECE212_NQ/Lab02/Lab02.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sim_1/new/Lab02_tb.sv,1726600395,systemVerilog,,,,Lab02_tb,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/carry_lookahead_8b.sv,1726601357,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/full_adder.sv,,carry_lookahead_8b,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/full_adder.sv,1726595545,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/prefix_8b.sv,,full_adder,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/prefix_8b.sv,1726601263,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/ripple_carry_8b.sv,,prefix_8b,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/ripple_carry_8b.sv,1726595162,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sim_1/new/Lab02_tb.sv,,ripple_carry_8b,,uvm,,,,,,
