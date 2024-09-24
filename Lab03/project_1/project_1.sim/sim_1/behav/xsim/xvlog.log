@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_4b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_4b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_behavioral.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_rnd_behavioral
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_structural.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_rnd_structural
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/full_adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab03/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sim_1/new/Lab03_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab03_tb

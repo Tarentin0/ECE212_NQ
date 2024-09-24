@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/full_adder.sv,1726595545,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab03/mux.sv,,full_adder,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab03/mux.sv,1727198177,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sim_1/new/Lab03_tb.sv,,mux,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sim_1/new/Lab03_tb.sv,1727202886,systemVerilog,,,,Lab03_tb,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_4b.sv,1727203493,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_behavioral.sv,,div_4b,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_behavioral.sv,1727203158,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_structural.sv,,div_rnd_behavioral,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_structural.sv,1727203417,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/full_adder.sv,,div_rnd_structural,,uvm,,,,,,

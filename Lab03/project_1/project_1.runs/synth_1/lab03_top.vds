@@ -1,0 +1,263 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep 24 14:51:00 2024
+# Process ID: 9440
+# Current directory: C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log lab03_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab03_top.tcl
+# Log file: C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.runs/synth_1/lab03_top.vds
+# Journal file: C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab03_top.tcl -notrace
+Command: synth_design -top lab03_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26368
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1140.883 ; gain = 52.109
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab03_top' [C:/Users/funkq/ECE212_NQ/Lab03/lab03_top.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'div_4b' [C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_4b.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'div_rnd_structural' [C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_structural.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/full_adder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (1#1) [C:/Users/funkq/ECE212_NQ/Lab02/Lab02.srcs/sources_1/new/full_adder.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/funkq/ECE212_NQ/Lab03/mux.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (2#1) [C:/Users/funkq/ECE212_NQ/Lab03/mux.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'div_rnd_structural' (3#1) [C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_structural.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'div_rnd_behavioral' [C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_behavioral.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'div_rnd_behavioral' (4#1) [C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_rnd_behavioral.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'div_4b' (5#1) [C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.srcs/sources_1/new/div_4b.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'result_display' [C:/Users/funkq/ECE212_NQ/Lab03/result_display.sv:23]
+	Parameter R bound to: 7'b0101111 
+INFO: [Synth 8-6157] synthesizing module 'dbl_dabble_ext' [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:15]
+INFO: [Synth 8-251] dbl_dabble input: x [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:22]
+INFO: [Synth 8-251] add3o 4 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 5 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 6 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 7 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 7 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:33]
+INFO: [Synth 8-251] add3o 8 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 8 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:33]
+INFO: [Synth 8-251] add3o 9 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 9 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:33]
+INFO: [Synth 8-251] add3o 10 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 10 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:33]
+INFO: [Synth 8-251] add3o 10 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:37]
+INFO: [Synth 8-251] add3o 11 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 11 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:33]
+INFO: [Synth 8-251] add3o 11 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:37]
+INFO: [Synth 8-251] add3o 12 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 12 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:33]
+INFO: [Synth 8-251] add3o 12 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:37]
+INFO: [Synth 8-251] add3o 13 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:29]
+INFO: [Synth 8-251] add3o 13 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:33]
+INFO: [Synth 8-251] add3o 13 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:37]
+INFO: [Synth 8-251] add3o 13 4'bxxxx 4'bxxxx 4'bxxxx 4'bxxxx 13'bxxxxxxxxxxxxx [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:41]
+INFO: [Synth 8-251] result    x    x   x   x [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:45]
+INFO: [Synth 8-6155] done synthesizing module 'dbl_dabble_ext' (6#1) [C:/Users/funkq/ECE212_NQ/Lab03/dbl_dabble_ext.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'adv_seven_seg_n' [C:/Users/funkq/ECE212_NQ/Lab03/adv_seven_seg_n.sv:19]
+INFO: [Synth 8-226] default block is never used [C:/Users/funkq/ECE212_NQ/Lab03/adv_seven_seg_n.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'adv_seven_seg_n' (7#1) [C:/Users/funkq/ECE212_NQ/Lab03/adv_seven_seg_n.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'disp_mux_seven_seg' [C:/Users/funkq/ECE212_NQ/Lab03/disp_mux_seven_seg.sv:23]
+	Parameter N bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'disp_mux_seven_seg' (8#1) [C:/Users/funkq/ECE212_NQ/Lab03/disp_mux_seven_seg.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'result_display' (9#1) [C:/Users/funkq/ECE212_NQ/Lab03/result_display.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab03_top' (10#1) [C:/Users/funkq/ECE212_NQ/Lab03/lab03_top.sv:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1194.336 ; gain = 105.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1194.336 ; gain = 105.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1194.336 ; gain = 105.562
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1194.336 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/funkq/ECE212_NQ/Lab03/lab03_constraints.xdc]
+Finished Parsing XDC File [C:/Users/funkq/ECE212_NQ/Lab03/lab03_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/funkq/ECE212_NQ/Lab03/lab03_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab03_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab03_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1311.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1311.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1311.160 ; gain = 222.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1311.160 ; gain = 222.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1311.160 ; gain = 222.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1311.160 ; gain = 222.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    4 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 44    
++---XORs : 
+	   2 Input      1 Bit         XORs := 16    
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 46    
+	   2 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1311.160 ; gain = 222.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1311.160 ; gain = 222.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 1323.688 ; gain = 234.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 1327.844 ; gain = 239.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     5|
+|3     |LUT1   |     1|
+|4     |LUT3   |     7|
+|5     |LUT4   |     2|
+|6     |LUT5   |     6|
+|7     |LUT6   |    63|
+|8     |MUXF7  |    23|
+|9     |MUXF8  |     4|
+|10    |FDRE   |    19|
+|11    |IBUF   |    17|
+|12    |OBUF   |    31|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 1329.672 ; gain = 124.074
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1329.672 ; gain = 240.898
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1341.738 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1341.738 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1341.738 ; gain = 252.965
+INFO: [Common 17-1381] The checkpoint 'C:/Users/funkq/ECE212_NQ/Lab03/project_1/project_1.runs/synth_1/lab03_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lab03_top_utilization_synth.rpt -pb lab03_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 24 14:51:29 2024...
