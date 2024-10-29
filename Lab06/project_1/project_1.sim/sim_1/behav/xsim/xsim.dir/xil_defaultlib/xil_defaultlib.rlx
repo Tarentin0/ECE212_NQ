@@ -1,0 +1,19 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/control/aludec.sv,1730225783,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/controller.sv,,aludec,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/control/maindec.sv,1730225652,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/mux2.sv,,maindec,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/controller.sv,1730225652,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/memory/dmem.sv,,controller,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/adder.sv,1730164026,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/alu.sv,,adder,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/alu.sv,1730164026,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/mips_decls_p.sv,,alu,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/flopr.sv,1730164028,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/memory/imem.sv,,flopr,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/mux2.sv,1730164028,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/regfile.sv,,mux2,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/regfile.sv,1730164028,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/signext.sv,,regfile,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/signext.sv,1730164028,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/top.sv,,signext,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/memory/dmem.sv,1730164028,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/datapath/flopr.sv,,dmem,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/memory/imem.sv,1730164028,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/control/maindec.sv,,imem,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/mips_decls_p.sv,1730164028,systemVerilog,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/control/aludec.sv;C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/control/maindec.sv;C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/controller.sv;C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/testbench.sv;C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/top.sv,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/control/aludec.sv,,mips_decls_p,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/testbench.sv,1730230142,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/top.sv,1730229369,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab06/Lab 06 Single-Cycle Starter Code/testbench.sv,,top,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab06/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,

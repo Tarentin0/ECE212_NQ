@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../Lab 06 Single-Cycle Starter Code/datapath/adder.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/datapath/alu.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/mips_decls_p.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/control/aludec.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/controller.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/memory/dmem.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/datapath/flopr.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/memory/imem.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/control/maindec.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/datapath/mux2.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/datapath/regfile.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/datapath/signext.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/top.sv" \
+"../../../../../Lab 06 Single-Cycle Starter Code/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
