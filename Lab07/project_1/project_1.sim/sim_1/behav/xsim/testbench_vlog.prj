@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../Lab07_StarterCode/datapath/alu.sv" \
+"../../../../../Lab07_StarterCode/mips_decls_p.sv" \
+"../../../../../Lab07_StarterCode/control/aludec.sv" \
+"../../../../../Lab07_StarterCode/controller.sv" \
+"../../../../../Lab07_StarterCode/datapath/flopenr.sv" \
+"../../../../../Lab07_StarterCode/datapath/flopr.sv" \
+"../../../../../Lab07_StarterCode/control/maindec.sv" \
+"../../../../../Lab07_StarterCode/memory/mipsmem.sv" \
+"../../../../../Lab07_StarterCode/datapath/mux2.sv" \
+"../../../../../Lab07_StarterCode/datapath/mux3.sv" \
+"../../../../../Lab07_StarterCode/datapath/mux4.sv" \
+"../../../../../Lab07_StarterCode/datapath/regfile.sv" \
+"../../../../../Lab07_StarterCode/datapath/signext.sv" \
+"../../../../../Lab07_StarterCode/datapath/sl2.sv" \
+"../../../../../Lab07_StarterCode/top_multi.sv" \
+"../../../../../Lab07_StarterCode/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

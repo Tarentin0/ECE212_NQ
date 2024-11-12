@@ -1,0 +1,21 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/control/aludec.sv,1731443171,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/controller.sv,,aludec,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/control/maindec.sv,1731440456,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/memory/mipsmem.sv,,maindec,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/controller.sv,1731439073,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/flopenr.sv,,controller,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/alu.sv,1730171226,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/mips_decls_p.sv,,alu,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/flopenr.sv,1730171228,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/flopr.sv,,flopenr,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/flopr.sv,1730171228,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/control/maindec.sv,,flopr,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/mux2.sv,1730171228,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/mux3.sv,,mux2,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/mux3.sv,1731370712,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/mux4.sv,,mux3,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/mux4.sv,1731370712,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/regfile.sv,,mux4,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/regfile.sv,1730171228,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/signext.sv,,regfile,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/signext.sv,1730171228,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/sl2.sv,,signext,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/sl2.sv,1730171228,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/top_multi.sv,,sl2,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/memory/mipsmem.sv,1731370712,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/datapath/mux2.sv,,mem,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/mips_decls_p.sv,1731373912,systemVerilog,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/control/aludec.sv;C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/control/maindec.sv;C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/controller.sv;C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/testbench.sv;C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/top_multi.sv,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/control/aludec.sv,,mips_decls_p,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/testbench.sv,1731441696,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/top_multi.sv,1731375872,systemVerilog,,C:/Users/funkq/ECE212_NQ/Lab07/Lab07_StarterCode/testbench.sv,,top_multi,,uvm,,,,,,
+C:/Users/funkq/ECE212_NQ/Lab07/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
