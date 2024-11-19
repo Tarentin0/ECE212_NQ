@@ -1,0 +1,88 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 946f1487ad4f4cf097b1a6aefe9aa66f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/testbench.sv" Line 14. Module testbench has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/top_pipeline.sv" Line 13. Module top_pipeline has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/fetch_stage.sv" Line 3. Module fetch_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/flopenr.sv" Line 9. Module flopenr(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory/imem.sv" Line 15. Module imem has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_f_d.sv" Line 3. Module pr_f_d has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/decode_stage.sv" Line 3. Module decode_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" Line 15. Module maindec has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/signext.sv" Line 8. Module signext has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/sl2.sv" Line 9. Module sl2 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/regfile.sv" Line 8. Module regfile has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_d_e.sv" Line 1. Module pr_d_e has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/execute_stage.sv" Line 3. Module execute_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" Line 15. Module maindec has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_e_m.sv" Line 3. Module pr_e_m has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory_stage.sv" Line 3. Module memory_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" Line 15. Module maindec has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory/dmem.sv" Line 14. Module dmem has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_m_w.sv" Line 3. Module pr_m_w has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/writeback_stage.sv" Line 3. Module writeback_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" Line 15. Module maindec has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/testbench.sv" Line 14. Module testbench has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/top_pipeline.sv" Line 13. Module top_pipeline has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/fetch_stage.sv" Line 3. Module fetch_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/flopenr.sv" Line 9. Module flopenr(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory/imem.sv" Line 15. Module imem has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_f_d.sv" Line 3. Module pr_f_d has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/decode_stage.sv" Line 3. Module decode_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" Line 15. Module maindec has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/signext.sv" Line 8. Module signext has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/sl2.sv" Line 9. Module sl2 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/regfile.sv" Line 8. Module regfile has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_d_e.sv" Line 1. Module pr_d_e has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/execute_stage.sv" Line 3. Module execute_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" Line 15. Module maindec has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=32) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" Line 9. Module mux2(WIDTH=5) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_e_m.sv" Line 3. Module pr_e_m has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory_stage.sv" Line 3. Module memory_stage has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" Line 15. Module maindec has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory/dmem.sv" Line 14. Module dmem has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_m_w.sv" Line 3. Module pr_m_w has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/writeback_stage.sv" Line 3. Module writeback_stage has a timescale but at least one module in design doesn't have timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4100' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.mips_decls_p
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.fetch_stage
+Compiling module xil_defaultlib.pr_f_d
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.decode_stage
+Compiling module xil_defaultlib.pr_d_e
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.execute_stage
+Compiling module xil_defaultlib.pr_e_m
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.memory_stage
+Compiling module xil_defaultlib.pr_m_w
+Compiling module xil_defaultlib.writeback_stage
+Compiling module xil_defaultlib.top_pipeline
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

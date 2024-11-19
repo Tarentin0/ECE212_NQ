@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/adder.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/alu.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/mips_decls_p.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/control/aludec.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/control/controller.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/decode_stage.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/memory/dmem.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/execute_stage.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/fetch_stage.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/flopenr.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/memory/imem.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/control/maindec.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/memory_stage.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/mux2.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/pipeline registers/pr_d_e.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/pipeline registers/pr_e_m.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/pipeline registers/pr_f_d.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/pipeline registers/pr_m_w.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/regfile.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/signext.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/sl2.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/top_pipeline.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/writeback_stage.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

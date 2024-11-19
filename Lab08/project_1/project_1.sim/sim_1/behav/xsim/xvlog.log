@@ -1,0 +1,48 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/mips_decls_p.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/decode_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory/dmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/execute_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/fetch_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/flopenr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory/imem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/control/maindec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/memory_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_d_e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_d_e
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_e_m.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_e_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_f_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_f_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/pipeline registers/pr_m_w.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_m_w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/signext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/datapath/sl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/top_pipeline.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_pipeline
+INFO: [VRFC 10-2458] undeclared symbol regwrite_w, assumed default net type wire [C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/top_pipeline.sv:78]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/writeback_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/funkq/ECE212_NQ/Lab08/mips_pipeline_STARTER_CODE/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
