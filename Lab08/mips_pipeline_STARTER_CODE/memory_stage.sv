@@ -5,7 +5,7 @@ module memory_stage(
     input logic [31:0] instr_i, addr_i, wd_i,
     output logic [31:0] rd_o,
     output logic [31:0] writedata_o, dataadr_o,
-    output logic memwrite_o
+    output logic memwrite_o, regwrite_m, memtoreg_m
     );
   
   
@@ -18,7 +18,7 @@ module memory_stage(
   assign opcode = opcode_t'(instr_i[31:26]);
   assign funct  = funct_t'(instr_i[5:0]); // caution: will show garbage function codes for non-R-Type insns
   controller U_C(.opcode(opcode), .funct(funct), .zero(1'b0), 
-                  .memwrite(memwrite_c));  
+                  .memwrite(memwrite_c), .regwrite(regwrite_m), .memtoreg(memtoreg_m));  
     
     
   dmem dmem(.clk, .we(memwrite_c), .adr(addr_i), .wd(wd_i), .rd(rd_o));

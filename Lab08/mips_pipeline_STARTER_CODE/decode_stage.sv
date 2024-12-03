@@ -7,7 +7,7 @@ module decode_stage(
     input logic [31:0] wd3_i,
     input logic [4:0] wadr3_i, 
     output logic [31:0] pcjumpaddr_o, pcbranchaddr_o, rd1_o, rd2_o, signextimm_o,
-    output logic pcsrc_o, jump_o
+    output logic pcsrc_o, jump_o, branch_d
     );
     
   import mips_decls_p::*;
@@ -32,7 +32,7 @@ module decode_stage(
   assign opcode = opcode_t'(instr_i[31:26]);
   assign funct  = funct_t'(instr_i[5:0]); // caution: will show garbage function codes for non-R-Type insns
   controller U_C(.opcode(opcode), .funct(funct), .zero(iszero_c), 
-                  .pcsrc(pcsrc_o), .jump(jump_o));    
+                  .pcsrc(pcsrc_o), .jump(jump_o), .branch(branch_d));    
  
    
   // Compute Jump Address

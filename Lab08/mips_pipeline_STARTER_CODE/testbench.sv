@@ -50,7 +50,7 @@ module testbench();
         end
     end
 
-    localparam LIMIT = 50;  // don't let simulation go on forever
+    localparam LIMIT = 300;  // don't let simulation go on forever
 
     integer cycle = 0;
 

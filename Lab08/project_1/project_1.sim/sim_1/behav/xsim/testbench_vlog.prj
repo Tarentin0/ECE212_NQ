@@ -10,10 +10,12 @@ sv xil_defaultlib  \
 "../../../../../mips_pipeline_STARTER_CODE/execute_stage.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/fetch_stage.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/datapath/flopenr.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/hazard.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/memory/imem.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/control/maindec.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/memory_stage.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/datapath/mux2.sv" \
+"../../../../../mips_pipeline_STARTER_CODE/datapath/mux3.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/pipeline registers/pr_d_e.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/pipeline registers/pr_e_m.sv" \
 "../../../../../mips_pipeline_STARTER_CODE/pipeline registers/pr_f_d.sv" \

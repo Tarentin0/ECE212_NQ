@@ -21,12 +21,11 @@ module controller(
     output logic       memtoreg, memwrite,
     output logic       pcsrc, alusrc,
     output logic       regdst, regwrite,
-    output logic       jump,
+    output logic       jump, branch,
     output logic [2:0] alucontrol
     );
 
   logic [1:0] aluop;
-  logic       branch;
 
   maindec U_MD(.opcode, .memtoreg, .memwrite, .branch,
              .alusrc, .regdst, .regwrite, .jump, .aluop);

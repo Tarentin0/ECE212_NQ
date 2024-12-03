@@ -6,7 +6,7 @@ module execute_stage(
     input logic [31:0] rd1_i, rd2_i, signextimm_i, 
     output logic [31:0] aluresult_o, 
     output logic [4:0] destreg_o,
-    output logic iszero_o
+    output logic iszero_o, regwrite_e, memtoreg_e
     );
   
   import mips_decls_p::*;
@@ -22,7 +22,7 @@ module execute_stage(
   assign opcode   = opcode_t'(instr_i[31:26]);
   assign funct    = funct_t'(instr_i[5:0]); // caution: will show garbage function codes for non-R-Type insns
   controller U_C(.opcode(opcode), .funct(funct), .zero(1'b0), 
-                  .alusrc(alusrc_c), .regdst(regdst_c), .alucontrol(aluctrl_c));  
+                  .alusrc(alusrc_c), .regdst(regdst_c), .alucontrol(aluctrl_c), .regwrite(regwrite_e), .memtoreg(memtoreg_e));  
 
 
 
